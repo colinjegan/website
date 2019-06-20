@@ -1,113 +1,72 @@
 #toolbar {
-
-font-family: helvetica;
-color: red;
-float: right;
-margin-left: 10px;
-position: sticky;
-
-
+  font-family: helvetica;
+  color: red;
+  float: right;
+  margin-left: 10px;
+  position: sticky;
 }
-
 #name {
-font-family: Georgia;
-text-align: left;
+  font-family: Georgia;
+  text-align: left;
 }
-
-
-
-.info1{
-
-margin-left: 70px;
-max-width: 500px;
-
+.info1 {
+  margin-left: 70px;
+  max-width: 500px;
 }
-
-
-.content1{
-
-
-margin-top: -300px;
-padding: 20px;
-float: right;
-min-width: 499px;
-max-width: 500px;
-text-align: right;
-background-color: #78B6EA;
-color: white;
-padding-left: 100%;
-padding-right: 50px;
-margin-top: -200px;
-padding-bottom: 50px;
-
+.content1 {
+  margin-top: -300px;
+  padding: 20px;
+  float: right;
+  min-width: 499px;
+  max-width: 500px;
+  text-align: right;
+  background-color: #78B6EA;
+  color: white;
+  padding-left: 100%;
+  padding-right: 50px;
+  margin-top: -200px;
+  padding-bottom: 50px;
 }
 body{
-
-font-family: helvetica;
-background-color: #F8F8F8;
+  font-family: helvetica;
+  background-color: #F8F8F8;
 }
-
 img{
-position: absolute;
-display: inline;
-float right;
-left: 700px;
-bottom: 140px;
+  position: absolute;
+  display: inline;
+  float right;
+  left: 700px;
+  bottom: 140px;
 }
-
-
-
 #uxintern{
-
-
   font-family: georgia;
   text-align: center;
 }
-
-
 #plant{
-
-max-width: 350px;
-max-height: 350px;
-position: relative;
-left: 30px;
-background-color: #78B6EA;
-top: 100px;
-
-
+  max-width: 350px;
+  max-height: 350px;
+  position: relative;
+  left: 30px;
+  background-color: #78B6EA;
+  top: 100px;
 }
-
-
-
 #email{
-
-
-
-margin-top: 25px;
-width: 300px;
-border-color: #78B6EA;
-border-width: thick;
-color: F8F8F8;
-background-color: #D3D3D3;
-opacity: .3;
-
+  margin-top: 25px;
+  width: 300px;
+  border-color: #78B6EA;
+  border-width: thick;
+  color: F8F8F8;
+  background-color: #D3D3D3;
+  opacity: .3;
 }
-
-
 .yea {
-
-background-color: #fafcda;
-font-family: Georgia;
-text-align: center;
-padding-top: 200px;
-color: purple;
+  background-color: #fafcda;
+  font-family: Georgia;
+  text-align: center;
+  padding-top: 200px;
+  color: purple;
 }
-
-
 #button{
-
-width: 300px;
-height: 30px;
-
-
+  width: 300px;
+  height: 30px;
 }
