@@ -1,20 +1,61 @@
 html {
-font-size: 62.5%;
+  font-size: 62.5%;
 }
-#toolbar {
+body {
   font-family: helvetica;
-  color:#78B6EA;
-  list-style-type: none;
-  display: inline-block;
-  position-sticky;
-  top:0;
-  height: 100%;
-
+  background-color: #F8F8F8;
+  font-size: 1.6rem;
+  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
-#sun{
-position: relative;
-top: -25rem;
-right: 4rem;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 1000;
+  padding: 1rem;
+  border-bottom: 1px solid #f2f2f2;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+main {
+  padding-top: 10rem;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+.navigation {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.navigation li {
+  margin: 1rem;
+}
+.navigation a {
+  padding: 1rem;
+  background: #ddd;
+  color: black;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.navigation a:hover {
+  background: #eee;
+}
+#sun {
+  position: relative;
+  top: -25rem;
+  right: 4rem;
 }
 #name {
   font-family: Georgia;
@@ -30,7 +71,6 @@ right: 4rem;
 }
 .content1 {
   padding: 2rem;
-
   top: -10rem;
   z-index: -1;
   float: right;
@@ -46,24 +86,11 @@ right: 4rem;
   font-size: 1.6rem;
   margin-bottom: -10rem;
 }
-body{
-  font-family: helvetica;
-  background-color: #F8F8F8;
-  font-size: 1.6rem;
-  margin-bottom: 0;
-}
-img{
-  position: absolute;
-  display: inline;
-  float right;
-  left: 70rem;
-  bottom: 14rem;
-}
-#uxintern{
+#uxintern {
   font-family: georgia;
   text-align: center;
 }
-#plant{
+#plant {
   max-width: 30rem;
   max-height: 35rem;
   position: relative;
@@ -71,7 +98,7 @@ img{
   background-color: #78B6EA;
   top: -4rem;
 }
-#email{
+#email {
   margin-top: 1.7rem;
   margin-bottom:2.7rem;
   width: 30rem;
@@ -93,7 +120,7 @@ img{
   width: 100%;
   top: 1rem;
 }
-#button{
+#button {
   width: 8rem;
   height: 3rem;
   border-radius: .8rem;
@@ -104,19 +131,9 @@ img{
   position: relative;
   left: 47%
 }
-#email{
+#email {
 border-color: #78B6EA;
 border-radius: .5rem;
 height: 2.7rem;
 border-width: 4
-}
-#brain{
-width: 5rem;
-height: 5rem;
-position: relative;
-top: 0;
-left: 0;
-display: inline;
-margin-left: 1rem;
-margin-top: 1rem;
 }
