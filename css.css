@@ -1,21 +1,32 @@
 html {
-font-size: 62.5%;
+  font-size: 62.5%;
 }
-#toolbar {
-  font-family: helvetica;
-  color:#78B6EA;
-  list-style-type: none;
-  display: inline-block;
-  position-sticky;
-  top:0;
-  height: 100%;
-
+body{
+  position: relative;
+  margin: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  position: fixed;
+  background-color: #F8F8F8;
+  z-index: 100;
+  padding-bottom: 2rem;
+}
+#flexparent{
+display: flex;
+width: 30%;
+flex-basis: auto;
+justify-content: space-between;
 }
 #sun{
-position: relative;
-top: -25rem;
-right: 4rem;
-}
+  position: relative;
+  top: -25rem;
+  right: 4rem;
+  }
 #name {
   font-family: Georgia;
   text-align: left;
@@ -24,13 +35,12 @@ right: 4rem;
   margin-left: 7rem;
   max-width: 50rem;
   position: relative;
-  top: 7rem;
+  top: 13rem;
   font-size: 1.6rem;
   margin-bottom: 2rem;
 }
 .content1 {
   padding: 2rem;
-
   top: -10rem;
   z-index: -1;
   float: right;
