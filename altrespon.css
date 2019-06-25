@@ -21,7 +21,6 @@ nav{
 .sis,.lyft,.etsy,.recipe,.myfitnesspal{
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
   text-align: center;
   justify-content: center;
   color: white;
