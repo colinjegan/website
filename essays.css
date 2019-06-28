@@ -1,0 +1,68 @@
+html {
+  font-size: 62.5%;
+}
+body{
+  position: relative;
+  margin: 0;
+  font-family: helvetica;
+  background-color: #B598C6;
+  font-size: 1.6rem;
+  margin-bottom: 0;
+  color: white;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  position: fixed;
+  background-color: #F8F8F8;
+  z-index: 100%;
+  padding-bottom: 2rem;
+}
+img{
+  width: 15vw;
+  height: 25vw;
+}
+.maincontent {
+  padding-top: 10rem;
+  display: grid;
+  grid-template-columns: 1 1 1;
+  grid-template-rows: 40rem 6rem 4rem;
+  grid-column-gap: 3vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  grid-template-areas:
+  'onliberty zerotoone krugman'
+  'millh2 zerotooneh2 krugmanh2'
+  'onlibertyp zerotoonep krugmanp';
+}
+.maincontent h2{
+text-align: center;
+}
+.maincontent p{
+  text-align: center;
+}
+#flexparent{
+  display: flex;
+  width: 30rem;
+  margin-right: 5rem;
+  flex-basis: auto;
+  justify-content: space-between;
+}
+#brain{
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+@media (max-width:838 ){
+
+
+
+}
