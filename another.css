@@ -4,6 +4,7 @@ html{
 body{
   margin: 0;
   font-family: helvetica;
+  position: relative;
   background-color: #fafcda;
 }
 nav{
@@ -38,12 +39,12 @@ p{
   position: relative;
   display: flex;
   flex-direction: row;
-  top: 35rem;
+  top: 22rem;
   height: 2vw;
   margin-top: 1vw;
   width: 9vw;
   background-color: #fafcda;
-  margin-left: 3rem;
+
   border-color: purple;
   color: purple;
   border-style: solid;
@@ -51,7 +52,7 @@ p{
   font-weight: bold;
   border-radius: .6rem;
   text-align: center;
-  margin-right: 0;
+
 }
 .etsy{
   background-color: #F45800;
@@ -74,11 +75,11 @@ p{
   position: relative;
   display: flex;
   flex-direction: row;
-  top: 25rem;
+  top: 20rem;
   height: 2vw;
   width: 9vw;
   background-color: purple;
-  margin-left: 3rem;
+
   border-color: purple;
   border-style: solid;
   color: white;
@@ -86,7 +87,8 @@ p{
   font-weight: bold;
   border-radius: .6rem;
   text-align: center;
-  margin-right: 0;
+  left: 3*2vw;
+
 }
 #fake{
   background-color: #fafcda;
@@ -107,21 +109,33 @@ p{
 }
 #flexparent{
   display: flex;
-  width: 30%;
+  width: 30rem;
   flex-basis: auto;
   justify-content: space-between;
+  margin-right: 5rem;
+}
+#problem{
+  display: inline-flex;
+  width: 4rem;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 6vw;
+  z-index: 1
 }
 #ultimate{
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  margin-left: 4%;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: -5rem;
+  z-index: 1;
 }
 #ultimate div{
   margin-top: 12rem;
-  margin-left: 8rem;
-  margin-right: 8rem;
+  margin-left: 6vw;
+  margin-right: 3vw;
   margin-bottom: -9rem;
   max-width: 20rem;
   min-height: 20rem;
@@ -137,31 +151,30 @@ p{
   margin: auto;
   text-decoration: none;
 }
-@media (max-width: 1124px){
-  .divresponsive{
-    height: 4vw;
-    width: 14vw;
-    font-size: 1.2vw;
-    }
-}
-@media (max-width: 769px){
-  .divresponsive{
-    height: 4vw;
-    width: 26vw;
-    font-size: 1.8vw;
-    }
-}
-@media (max-width: 1124px){
-  .divresponsive2{
-    height: 4vw;
-    width: 14vw;
-    font-size: 1.2vw;
-    }
-}
-@media (max-width: 769px){
-  .divresponsive2{
-    height: 5vw;
-    width: 26vw;
-    font-size: 1.8vw;
-    }
+@media (max-width: 1000px){
+  #problem{
+    width: 7rem;
+    margin-left: 2vw;
   }
+}
+@media (max-width: 820px){
+  #problem{
+    width: 10rem;
+    margin-left: 2vw;
+  }
+  .divresponsive,.divresponsive2{
+    height: 2vw;
+    width: 12vw;
+  }
+}
+@media (max-width: 560px){
+  #problem{
+    width: 13rem;
+    margin-left: 2vw;
+  }
+  .divresponsive,.divresponsive2{
+    height: 4vw;
+    width: 20vw;
+    font-size: 2vw;
+  }
+}

@@ -18,7 +18,8 @@ nav{
 }
 #flexparent{
 display: flex;
-width: 30%;
+width: 30rem;
+margin-right: 5rem;
 flex-basis: auto;
 justify-content: space-between;
 }

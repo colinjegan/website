@@ -47,7 +47,7 @@ nav{
   position: relative;
   display: flex;
   flex-direction: column;
-  top: 25rem;
+  top: 20rem;
   height: 2vw;
   width: 9vw;
   background-color: #fafcda;
@@ -78,7 +78,8 @@ nav{
 }
 #flexparent{
   display: flex;
-  width: 30%;
+  width: 30rem;
+  margin-right: 5rem;
   flex-basis: auto;
   justify-content: space-between;
 }
@@ -94,15 +95,16 @@ nav{
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  margin-left: 4%;
-  margin-top: 10.2rem;
+  margin-left: 2vw;
+  margin-top: -5rem;
 }
 #ultimate div{
+  margin-top: 12rem;
   margin-left: 6vw;
-  margin-right: 6vw;
-  margin-top: 3vw;
-  width: 15.75vw;
-  height: 15.75vw;
+  margin-right: 3vw;
+  margin-bottom: -9rem;
+  width: 17.5vw;
+  height: 17.5vw;
   border-color: white;
   color: white;
 }
@@ -123,9 +125,10 @@ nav{
   position: relative;
   display: flex;
   flex-direction: row;
-  top: 35rem;
+  top: 22rem;
   height: 2vw;
   width: 9vw;
+  margin-top: 1vw;
   background-color: #fafcda;
   margin-left: 3rem;
   border-color: purple;
@@ -154,21 +157,60 @@ nav{
     font-size: 3vw;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
     flex-wrap: nowrap;
+    width: 100%;
     }
   .divresponsive,.divresponsive2{
-    top: 50rem;
+    top: 70vw;
     height: 3rem;
-    width: 12rem;
-    margin-left: 10rem;
-    font-size: 1.5vw;
-          }
-  .divresponsive{
-    left: 20vw;
+    font-size: 1.2vw;
+    width: 9rem;
     }
-  .divresponsive2{
-      right: 25rem;
+    #ultimate p{
+      font-size: 1.5vw;
     }
+    #ultimate h2{
+      font-size: 1.9vw;
+    }
+}
+@media (max-height:550px ){
+  #ultimate{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 6vw;
+    margin-top: -10rem;
+  }
+  #ultimate div{
+    margin-top: 12rem;
+    margin-left: 8vh;
+    margin-right: 3vh;
+    margin-bottom: -9rem;
+    width: 42vh;
+    height: 42vh;
+    border-color: white;
+    color: white;
+  }
+    #ultimate{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      margin-left: 14vw;
+      top: 5vw;
+    }
+    #flexdiv{
+
+    top: 30rem;
+      display: inline-flex;
+      flex-direction: column;
+      margin-bottom: 50px;
+      position: relative;
+      z-index:-2;
+      top: -15vh;
+
+}
 }
