@@ -24,6 +24,24 @@ nav{
 img{
   width: 15vw;
   height: 25vw;
+  align-self: center;
+}
+button{
+  width: 10vw;
+  align-self: center;
+  background-color: #B598C6;
+  color: white;
+  height: 8vw;
+  border-color: white;
+  display: inline-block;
+  border-style: solid;
+}
+a:link,a:visited{
+  text-decoration: none;
+  color: purple;
+}
+a:hover{
+  color: blue;
 }
 .maincontent {
   padding-top: 10rem;
@@ -43,6 +61,23 @@ text-align: center;
 }
 .maincontent p{
   text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+.mill{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.thiel{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.paul{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 #flexparent{
   display: flex;
@@ -61,8 +96,13 @@ text-align: center;
   margin-left: 1rem;
   margin-top: 1rem;
 }
-@media (max-width:838 ){
-
-
-
+@media (max-width: 1110px){
+  .paul p{
+    margin-top: 2.5rem;
+  }
+}
+@media (max-width:720px AND min-width:467px){
+  .paul p{
+    margin-top: 0;
+  }
 }

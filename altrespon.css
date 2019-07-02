@@ -18,6 +18,13 @@ nav{
   padding-bottom: 2rem;
   font-size: 1.6rem;
 }
+a:link,a:visited{
+  text-decoration: none;
+  color: purple;
+}
+a:hover{
+  color: blue;
+}
 .sis,.lyft,.etsy,.recipe,.myfitnesspal{
   display: flex;
   flex-direction: column;
